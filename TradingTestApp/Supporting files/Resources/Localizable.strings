@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  TradingTestApp
+
+  Created by Дмитрий Мартынов on 18.10.2023.
+  
+*/
+
+//MARK: - Tab Bar
+"trade" = "Trade";
+"top" = "Top";
+
+//MARK: - Trade VC
+"balance" = "Balance";
+"timer" = "Timer";
+"investment" = "Investment";
+"buy" = "Buy";
+"sell" = "Sell";
+"success" = "Success";
+"ok" = "Ok";
+
+//MARK: - Currency pair VC
+"currencyPair" = "Currency pair";
+
+//MARK: - Top VC
+"topTenTraders" = "TOP 10 Traders";
+"number" = "№";
+"country" = "Country";
+"name" = "Name";
+"deposit" = "Deposit";
+"profit" = "Profit";

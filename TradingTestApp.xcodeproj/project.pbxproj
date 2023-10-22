@@ -7,23 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A39BC8252AE2E24B00036673 /* CurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39BC8242AE2E24B00036673 /* CurrencyViewController.swift */; };
+		A39BC8282AE2E8C900036673 /* CurrencyPairCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39BC8272AE2E8C900036673 /* CurrencyPairCell.swift */; };
+		A39BC82A2AE3FE1600036673 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39BC8292AE3FE1600036673 /* Array+Extensions.swift */; };
+		A39BC82F2AE40A3900036673 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39BC82E2AE40A3900036673 /* LoadingViewController.swift */; };
+		A39BC8312AE40A7800036673 /* Loading.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39BC8302AE40A7700036673 /* Loading.storyboard */; };
+		A39BC8342AE413C700036673 /* LocalNotificationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39BC8332AE413C700036673 /* LocalNotificationsManager.swift */; };
+		A39BC8362AE43A8200036673 /* BalanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39BC8352AE43A8200036673 /* BalanceManager.swift */; };
+		A39BC8382AE44A1300036673 /* ChartWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39BC8372AE44A1300036673 /* ChartWebView.swift */; };
+		A3E292612AE4EEEF00989339 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3E292602AE4EEEF00989339 /* Inter-ExtraBold.ttf */; };
+		A3E292642AE4F01100989339 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3E292632AE4F01100989339 /* Inter-Bold.ttf */; };
+		A3E292662AE4F55500989339 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3E292652AE4F55500989339 /* Inter-Medium.ttf */; };
+		A3E292682AE4FAA600989339 /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A3E292672AE4FAA600989339 /* SF-Pro-Text-Bold.otf */; };
+		A3E2926A2AE4FEC900989339 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A3E292692AE4FEC900989339 /* SF-Pro-Text-Semibold.otf */; };
 		A3F67B372AE00C16006F6106 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F67B362AE00C16006F6106 /* AppDelegate.swift */; };
 		A3F67B392AE00C16006F6106 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F67B382AE00C16006F6106 /* SceneDelegate.swift */; };
-		A3F67B3B2AE00C16006F6106 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F67B3A2AE00C16006F6106 /* ViewController.swift */; };
-		A3F67B3E2AE00C16006F6106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F67B3C2AE00C16006F6106 /* Main.storyboard */; };
 		A3F67B402AE00C18006F6106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3F67B3F2AE00C18006F6106 /* Assets.xcassets */; };
 		A3F67B432AE00C18006F6106 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F67B412AE00C18006F6106 /* LaunchScreen.storyboard */; };
+		A3F67B4C2AE00D14006F6106 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F67B4B2AE00D14006F6106 /* TabBarController.swift */; };
+		A3F67B4F2AE00E6A006F6106 /* TradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F67B4E2AE00E6A006F6106 /* TradeViewController.swift */; };
+		A3F67B522AE00FA5006F6106 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F67B512AE00FA5006F6106 /* TopViewController.swift */; };
+		A3F67B572AE0106C006F6106 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F67B562AE0106C006F6106 /* String+Extensions.swift */; };
+		A3F67B592AE010D8006F6106 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3F67B582AE010D8006F6106 /* Localizable.strings */; };
+		A3F67B5B2AE01CDC006F6106 /* TopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F67B5A2AE01CDC006F6106 /* TopCell.swift */; };
+		A3F67B5D2AE01F19006F6106 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F67B5C2AE01F19006F6106 /* UIFont+Extensions.swift */; };
+		A3F67B622AE02B57006F6106 /* Trader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F67B612AE02B57006F6106 /* Trader.swift */; };
+		A3F67B652AE17D34006F6106 /* TradeSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F67B642AE17D34006F6106 /* TradeSettingsView.swift */; };
+		A3F67B672AE19307006F6106 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F67B662AE19307006F6106 /* UIViewController+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A39BC8242AE2E24B00036673 /* CurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewController.swift; sourceTree = "<group>"; };
+		A39BC8272AE2E8C900036673 /* CurrencyPairCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPairCell.swift; sourceTree = "<group>"; };
+		A39BC8292AE3FE1600036673 /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		A39BC82E2AE40A3900036673 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		A39BC8302AE40A7700036673 /* Loading.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Loading.storyboard; sourceTree = "<group>"; };
+		A39BC8332AE413C700036673 /* LocalNotificationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationsManager.swift; sourceTree = "<group>"; };
+		A39BC8352AE43A8200036673 /* BalanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceManager.swift; sourceTree = "<group>"; };
+		A39BC8372AE44A1300036673 /* ChartWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartWebView.swift; sourceTree = "<group>"; };
+		A3E292602AE4EEEF00989339 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A3E292632AE4F01100989339 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		A3E292652AE4F55500989339 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		A3E292672AE4FAA600989339 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		A3E292692AE4FEC900989339 /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
 		A3F67B332AE00C16006F6106 /* TradingTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F67B362AE00C16006F6106 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3F67B382AE00C16006F6106 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A3F67B3A2AE00C16006F6106 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A3F67B3D2AE00C16006F6106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3F67B3F2AE00C18006F6106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3F67B422AE00C18006F6106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3F67B442AE00C18006F6106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3F67B4B2AE00D14006F6106 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		A3F67B4E2AE00E6A006F6106 /* TradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeViewController.swift; sourceTree = "<group>"; };
+		A3F67B512AE00FA5006F6106 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		A3F67B562AE0106C006F6106 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		A3F67B582AE010D8006F6106 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		A3F67B5A2AE01CDC006F6106 /* TopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCell.swift; sourceTree = "<group>"; };
+		A3F67B5C2AE01F19006F6106 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		A3F67B612AE02B57006F6106 /* Trader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trader.swift; sourceTree = "<group>"; };
+		A3F67B642AE17D34006F6106 /* TradeSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeSettingsView.swift; sourceTree = "<group>"; };
+		A3F67B662AE19307006F6106 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +79,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A39BC8262AE2E88800036673 /* CurrencyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A39BC8242AE2E24B00036673 /* CurrencyViewController.swift */,
+				A39BC8272AE2E8C900036673 /* CurrencyPairCell.swift */,
+			);
+			path = CurrencyViewController;
+			sourceTree = "<group>";
+		};
+		A39BC82D2AE40A2400036673 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				A39BC8302AE40A7700036673 /* Loading.storyboard */,
+				A39BC82E2AE40A3900036673 /* LoadingViewController.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		A39BC8322AE413BA00036673 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A39BC8332AE413C700036673 /* LocalNotificationsManager.swift */,
+				A39BC8352AE43A8200036673 /* BalanceManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A3E292622AE4EFF900989339 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A3E292632AE4F01100989339 /* Inter-Bold.ttf */,
+				A3E292652AE4F55500989339 /* Inter-Medium.ttf */,
+				A3E292602AE4EEEF00989339 /* Inter-ExtraBold.ttf */,
+				A3E292672AE4FAA600989339 /* SF-Pro-Text-Bold.otf */,
+				A3E292692AE4FEC900989339 /* SF-Pro-Text-Semibold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		A3F67B2A2AE00C16006F6106 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +139,91 @@
 			children = (
 				A3F67B362AE00C16006F6106 /* AppDelegate.swift */,
 				A3F67B382AE00C16006F6106 /* SceneDelegate.swift */,
-				A3F67B3A2AE00C16006F6106 /* ViewController.swift */,
-				A3F67B3C2AE00C16006F6106 /* Main.storyboard */,
+				A3F67B4A2AE00CF8006F6106 /* Scenes */,
+				A39BC8322AE413BA00036673 /* Managers */,
+				A3F67B602AE02B42006F6106 /* Models */,
+				A3F67B532AE00FFB006F6106 /* Supporting files */,
+			);
+			path = TradingTestApp;
+			sourceTree = "<group>";
+		};
+		A3F67B4A2AE00CF8006F6106 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A3F67B4B2AE00D14006F6106 /* TabBarController.swift */,
+				A39BC82D2AE40A2400036673 /* Loading */,
+				A3F67B4D2AE00E36006F6106 /* TradeViewController */,
+				A3F67B502AE00F97006F6106 /* TopViewController */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		A3F67B4D2AE00E36006F6106 /* TradeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A3F67B4E2AE00E6A006F6106 /* TradeViewController.swift */,
+				A3F67B632AE17D07006F6106 /* Subviews */,
+				A39BC8262AE2E88800036673 /* CurrencyViewController */,
+			);
+			path = TradeViewController;
+			sourceTree = "<group>";
+		};
+		A3F67B502AE00F97006F6106 /* TopViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A3F67B512AE00FA5006F6106 /* TopViewController.swift */,
+				A3F67B5A2AE01CDC006F6106 /* TopCell.swift */,
+			);
+			path = TopViewController;
+			sourceTree = "<group>";
+		};
+		A3F67B532AE00FFB006F6106 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				A3F67B542AE01010006F6106 /* Helpers */,
+				A3F67B552AE01031006F6106 /* Resources */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		A3F67B542AE01010006F6106 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A3F67B562AE0106C006F6106 /* String+Extensions.swift */,
+				A3F67B5C2AE01F19006F6106 /* UIFont+Extensions.swift */,
+				A3F67B662AE19307006F6106 /* UIViewController+Extensions.swift */,
+				A39BC8292AE3FE1600036673 /* Array+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A3F67B552AE01031006F6106 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A3E292622AE4EFF900989339 /* Fonts */,
 				A3F67B3F2AE00C18006F6106 /* Assets.xcassets */,
 				A3F67B412AE00C18006F6106 /* LaunchScreen.storyboard */,
 				A3F67B442AE00C18006F6106 /* Info.plist */,
+				A3F67B582AE010D8006F6106 /* Localizable.strings */,
 			);
-			path = TradingTestApp;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A3F67B602AE02B42006F6106 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A3F67B612AE02B57006F6106 /* Trader.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A3F67B632AE17D07006F6106 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				A3F67B642AE17D34006F6106 /* TradeSettingsView.swift */,
+				A39BC8372AE44A1300036673 /* ChartWebView.swift */,
+			);
+			path = Subviews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +284,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3E292642AE4F01100989339 /* Inter-Bold.ttf in Resources */,
+				A3E292612AE4EEEF00989339 /* Inter-ExtraBold.ttf in Resources */,
+				A3E292682AE4FAA600989339 /* SF-Pro-Text-Bold.otf in Resources */,
 				A3F67B432AE00C18006F6106 /* LaunchScreen.storyboard in Resources */,
+				A3F67B592AE010D8006F6106 /* Localizable.strings in Resources */,
+				A3E292662AE4F55500989339 /* Inter-Medium.ttf in Resources */,
+				A3E2926A2AE4FEC900989339 /* SF-Pro-Text-Semibold.otf in Resources */,
+				A39BC8312AE40A7800036673 /* Loading.storyboard in Resources */,
 				A3F67B402AE00C18006F6106 /* Assets.xcassets in Resources */,
-				A3F67B3E2AE00C16006F6106 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +303,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3F67B3B2AE00C16006F6106 /* ViewController.swift in Sources */,
+				A3F67B4C2AE00D14006F6106 /* TabBarController.swift in Sources */,
+				A39BC8252AE2E24B00036673 /* CurrencyViewController.swift in Sources */,
+				A39BC82F2AE40A3900036673 /* LoadingViewController.swift in Sources */,
 				A3F67B372AE00C16006F6106 /* AppDelegate.swift in Sources */,
+				A39BC82A2AE3FE1600036673 /* Array+Extensions.swift in Sources */,
+				A3F67B652AE17D34006F6106 /* TradeSettingsView.swift in Sources */,
+				A3F67B5D2AE01F19006F6106 /* UIFont+Extensions.swift in Sources */,
+				A39BC8282AE2E8C900036673 /* CurrencyPairCell.swift in Sources */,
+				A39BC8362AE43A8200036673 /* BalanceManager.swift in Sources */,
 				A3F67B392AE00C16006F6106 /* SceneDelegate.swift in Sources */,
+				A3F67B622AE02B57006F6106 /* Trader.swift in Sources */,
+				A39BC8342AE413C700036673 /* LocalNotificationsManager.swift in Sources */,
+				A3F67B672AE19307006F6106 /* UIViewController+Extensions.swift in Sources */,
+				A3F67B4F2AE00E6A006F6106 /* TradeViewController.swift in Sources */,
+				A3F67B572AE0106C006F6106 /* String+Extensions.swift in Sources */,
+				A3F67B5B2AE01CDC006F6106 /* TopCell.swift in Sources */,
+				A39BC8382AE44A1300036673 /* ChartWebView.swift in Sources */,
+				A3F67B522AE00FA5006F6106 /* TopViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A3F67B3C2AE00C16006F6106 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A3F67B3D2AE00C16006F6106 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A3F67B412AE00C18006F6106 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,6 +388,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "TradingTestApp/Supporting files/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -270,6 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "TradingTestApp/Supporting files/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -292,9 +466,9 @@
 				INFOPLIST_FILE = TradingTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,6 +476,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Dmitrii-Martynov.TradingTestApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,9 +497,9 @@
 				INFOPLIST_FILE = TradingTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,6 +507,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Dmitrii-Martynov.TradingTestApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

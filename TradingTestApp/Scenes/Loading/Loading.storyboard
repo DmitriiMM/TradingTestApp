@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Loading View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="LoadingViewController" id="Y6W-OH-hqX" customClass="LoadingViewController" customModule="TradingTestApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="SuF-2t-oo0">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                            </imageView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Qxw-h3-OHn">
+                                <rect key="frame" x="32" y="410" width="326" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="67d-aP-7xM"/>
+                                </constraints>
+                                <color key="progressTintColor" red="0.37254901959999998" green="0.71372549019999998" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="trackTintColor" red="0.35686274509999999" green="0.35294117650000001" blue="0.37647058820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VJv-y3-mij">
+                                <rect key="frame" x="174" y="411.66666666666669" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Qxw-h3-OHn" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="2hd-QW-FaF"/>
+                            <constraint firstItem="Qxw-h3-OHn" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="32" id="DOf-as-IIq"/>
+                            <constraint firstItem="SuF-2t-oo0" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="Eld-id-Wtn"/>
+                            <constraint firstAttribute="trailing" secondItem="SuF-2t-oo0" secondAttribute="trailing" id="FMD-Di-MNZ"/>
+                            <constraint firstAttribute="bottom" secondItem="SuF-2t-oo0" secondAttribute="bottom" id="RiG-1o-YVV"/>
+                            <constraint firstItem="Qxw-h3-OHn" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="WSQ-RO-NA1"/>
+                            <constraint firstItem="VJv-y3-mij" firstAttribute="centerY" secondItem="Qxw-h3-OHn" secondAttribute="centerY" id="kKo-j0-rzg"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Qxw-h3-OHn" secondAttribute="trailing" constant="32" id="ksC-JT-xRT"/>
+                            <constraint firstItem="SuF-2t-oo0" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="lL6-eC-wSl"/>
+                            <constraint firstItem="VJv-y3-mij" firstAttribute="centerX" secondItem="Qxw-h3-OHn" secondAttribute="centerX" id="wnu-DA-XNd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="progressLabel" destination="VJv-y3-mij" id="5gF-5Y-6bc"/>
+                        <outlet property="progressView" destination="Qxw-h3-OHn" id="NW3-aU-2nZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="-2"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="375" height="812"/>
+    </resources>
+</document>
